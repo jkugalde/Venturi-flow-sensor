@@ -26,9 +26,18 @@ more equations i guess
 
 As we want to measure the pressure difference we need a differential pressure sensor. The pressure drop will be a parameter for choosing a sensor with the right range and precision, and the pressure drop will depend on the sections of the tube. 
 
-We are designing this device for a mechanical respirator that uses some medical tubing and adapters, the diameters are usually 22 or 25 mm. This give us some starting point for the larger section, which will have an inner diamater of 22 mm. The outer diameter along the tube was designed to fit in our specific machine, so it does not really matter to you. Now, the goal is to choose 
+We are designing this device for a mechanical respirator that uses some medical tubing and adapters, the diameters are usually 22 or 25 mm. This give us some starting point for the larger section, which will have an inner diamater of 22 mm. The outer diameter along the tube was designed to fit in our specific machine, so it does not really matter to you. Now, the goal is to choose the cheapest sensor as possible given the flow range that your particular device works with, and to keep the constriction as big as possible, as the tube has to reduce the diameter smoothly to avoid turbulence, increasing the length. So, given a 10 mm constrition for our highest and lowest flow and using the equations from above, we get pressures drops of X. 
+
+We found this sensor that operates in the given range: 
+
+0.5INCH-D1-4V-MINI
+
+ <img src="/images/sensor.png" width="500">
+
+ Finally, we add some connector for hoses in the measuring points and a grid at teh entry of the tube, to laminate the flow.
 
  <img src="/images/cad.png" width="500">
+
 
 # Manufacturing
 
@@ -46,7 +55,13 @@ We used an Arduino to get the data, as is really easy to use, all hail our God A
 
  <img src="/images/arduinotime.png" width="500">
 
-The first step is to get the reading from the sensor, which has two analog outputs.
+The first step is to get the reading from the sensor, which has two analog outputs. According to the manufacturer, we can get voltage using the following equation:
+
+yes
+
+Now, combining this with the equation (3) we get an expression for the flow:
+
+yeah
 
 # Tests
 
