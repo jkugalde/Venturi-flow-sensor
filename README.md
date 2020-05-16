@@ -36,9 +36,15 @@ The tube was printed with a 0.1 mm layer height in a Form2 SLA printer, from For
 
  <img src="/images/printed.png" width="500">
 
+ The assembly:
+
+  <img src="/images/device.png" width="500">
+
 # Programming
 
-We used an Arduino to get the data, as is really easy to use, all hail our God Arduino! before knowing it my life was only of pain and misery. Now i have some joys now and then when the code compiles. 
+We used an Arduino to get the data, as is really easy to use, all hail our God Arduino! before knowing it my life was only of pain and misery. Now i have some joys now and then when the code compiles. I love working with code beacuse you can get results in seconds instead of some minutes or hours as it happens with electronics, or days when it is mechanical stuff. SO IT IS...!
+
+ <img src="/images/arduinotime.png" width="500">
 
 The first step is to get the reading from the sensor, which has two analog outputs.
 
