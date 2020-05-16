@@ -32,7 +32,7 @@ We found this sensor that operates in the given range:
 
 0.5INCH-D1-4V-MINI
 
- <img src="/images/sensor.png" width="500">
+ <img src="/images/sensor.png" width="100">
 
  Finally, we add some connector for hoses in the measuring points and a grid at teh entry of the tube, to laminate the flow.
 
