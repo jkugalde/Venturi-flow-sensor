@@ -41,11 +41,11 @@ We found this sensor that operates in the given range:
 
 # Manufacturing
 
-The tube was printed with a 0.1 mm layer height in a Form2 SLA printer, from Formlabs. The material used whas tough resin, as the standard resine is too brittle and we did not want that the piece brake apart if dropped by accident. The hoses to joint the tube with the sensor are size 8 supply suction tubes, fits just right. A small pcb was made for the sensor to keep it static, as it is really small and fragile. 
+The tube was printed with a 0.1 mm layer height in a Form2 SLA printer, from Formlabs. The material used was clear resin, but as it is too brittle and we did not want that the piece brake apart if dropped by accident we also used tough resin. The hoses to joint the tube with the sensor are size 8 supply suction tubes, fits just right. A small pcb was made for the sensor to keep it static, as it is really small and fragile. 
 
  <img src="/images/printed.png" width="500">
 
- The assembly:
+ The assembly (tough resin):
 
   <img src="/images/device.png" width="500">
 
@@ -55,7 +55,7 @@ We used an Arduino to get the data, as is really easy to use, all hail our God A
 
  <img src="/images/arduinotime.png" width="500">
 
-The first step is to get the reading from the sensor, which has two analog outputs. According to the manufacturer, we can get voltage using the following equation:
+The first step is to get the reading from the sensor, which has an analog output. According to the manufacturer, we can get voltage using the following equation:
 
 yes
 
